@@ -1,46 +1,37 @@
 [日本語](README.md) | [English](README_en.md)
 
-# 第3回インテリジェントホームロボティクスチャレンジ (iHR-C3)
+# 第４回インテリジェントホームロボティクスチャレンジ (以下：iHR-C4)
 
-本リポジトリはiHR-C3チャレンジ参加者向けの「各種情報」と「競技ルール」を発信するためのリポジトリです．
+本リポジトリはiHR-C4チャレンジ参加者向けの「各種情報」と「競技ルール」を発信するためのリポジトリです．
 
 
 ## 大会開催情報
 
-第12回インテリジェントホームロボティクス研究会が開催されます．
+第13回インテリジェントホームロボティクス研究会が開催されます．
 
-大会ホームページ: https://sites.google.com/view/intelligenthomerobotics/activity/iHR12 
+大会ホームページ: [https://www.i-homerobotics.org/activity/iHR13](https://www.i-homerobotics.org/activity/iHR13) 
 
 ### 会期
 
 | 日程 | 内容 |
 |---|---|
-| 11月30日 | コンペティション |
-| 12月01日 | ワークショップ，発表 |
+| 12月13日 | チャレンジ |
+| 12月14日 | 招待講演・研究発表・講習会 |
 
 ### 場所
 
-* 玉川大学 [地図](https://maps.app.goo.gl/GFWpf5UczVD4ue2N8)
+* 東京大学　本郷キャンパス（〒113-8654 東京都文京区本郷７丁目３−１） [地図](https://maps.app.goo.gl/K7kbozMjV3u2s4w99)
 
 
 ## 参加登録
 
-参加登録は3種類あります．
-
-`研究発表・投稿`の登録は任意となりますが，`iHR-C3`にあたっての戦略解説や新技術の導入紹介でも大歓迎です．
-
 | 登録締切 | 内容 |
 | --- | --- |
-| 11月23日 | コンペティション |
-| 11月29日 | 研究発表・投稿 |
-| 11月23日 | 参加/懇親会申込 |
+| TODO | チャレンジ |
+| TODO | 見学/懇親会申込 |
 
 > [!Caution]
-> 発表や聴講・コンペティションに参加する人は，上記の申し込みとは別に**全員個別で参加登録**をお願いします．
-
-以下ページよりそれぞれお申し込みください．
-
-https://sites.google.com/view/intelligenthomerobotics/activity/iHR12#h.kmiowpucv97u
+> 詳細はウェブサイトにて記載されておりますので，ご確認ください．
 
 
 ## Discord
@@ -57,37 +48,35 @@ https://sites.google.com/view/intelligenthomerobotics/activity/iHR12#h.kmiowpucv
 
 ### Overall Rules
 
-* [General Rules and Regulations](./rules/ALL/grr_ja.md)
+> [!Important]
+> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
+
+* [【TODO】General Rules and Regulations](./rules/ALL/grr_ja.md)
 
 ### Tasks
 
-* [Carry My Luggage](./rules/ALL/cml_ja.md)
-* [Storing Groceries](./rules/ALL/sg_ja.md)
-* [Restaurant](./rules/ALL/res_ja.md)
+> [!Important]
+> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
+
+* [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
+* [【TODO】 Receptionist]()
 
 ### Detailed Information
 
-<!-- * (TBD)Object List -->
-* [Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
+> [!Important]
+> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
+
+* [【TODO】Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
+* [【TODO】Furniture List]()
 
 
 ## 採点
 
-### 競技
-
 | 受賞 | チーム名 |
 | --- | --- |
-| 優勝 | TIDBots |
-| 準優勝 | eR@sers |
-| 第三位 | TRAIL |
+| 優勝 | TODO |
+| 準優勝 | TODO |
+| 第三位 | TODO |
 
+[【TODO】Detailed Score]()
 
-![](rules/ALL/doc/iHR-C3_SG-score.svg)
-
-
-### 特別賞
-
-| 受賞 | チーム名 |
-| --- | --- |
-| Best Manipulation Award | TaMC-HSR |
-| Best Hospitality Award | SOBITS |
