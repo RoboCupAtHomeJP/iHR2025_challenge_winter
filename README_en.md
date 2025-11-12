@@ -1,95 +1,71 @@
-[日本語](README.md) | [English](README_en.md)
+[Japanese](README.md) | [English](README_en.md)
 
-# 第3回インテリジェントホームロボティクスチャレンジ (iHR-C3)
+# The 4th Intelligent Home Robotics Challenge (iHR-C4)
 
-This repository reflects the "Information" and "Rules" for the iHR-C3 Challenge participant teams.
+This repository is for providing "Competition-related Information" and "Competition Rules" for participants of the iHR-C4 Challenge.
 
 
 ## Competition Information
 
-The 12th Intelligent Home Robotics Conference (Challenge) will be held as it follows.
-  
-Competition Website: https://sites.google.com/view/intelligenthomerobotics/activity/iHR12
+The 13th Intelligent Home Robotics Workshop will be held.
 
-### Dates
+Competition Website: [https://www.i-homerobotics.org/activity/iHR13](https://www.i-homerobotics.org/activity/iHR13) 
 
-| Dates | Content |
+### Schedule
+
+| Date | Content |
 |---|---|
-| 11/30 | Competition |
-| 12/01 | Workshop & Presentation |
+| December 13th | Challenge |
+| December 14th | Invited Talks, Research Presentations, Workshops |
 
-### Venue
+### Location
 
-* Tamagawa University [map](https://maps.app.goo.gl/GFWpf5UczVD4ue2N8)
+* The University of Tokyo, Hongo Campus (7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8654) [Map](https://maps.app.goo.gl/K7kbozMjV3u2s4w99)
 
 
 ## Registration
 
-There are three types of registration.
-
-Participation in the `Workshop & Presentation` is optional.
-However, we actively encourage to the teams to share their on-working researches or strategies adopted during the  `iHR-C3`.
-
-| Deadlines | Content |
+| Registration Deadline | Details |
 | --- | --- |
-| 11/23 | Competition |
-| 11/29 | Paper Submission |
-| 11/23 | Participation |
+| Saturday, December 6, 2025, 23:59 | Challenge |
+| Saturday, December 6, 2025, 23:59 | Entrance / Dinner Application |
 
 > [!Caution]
-> All participants and/or attendee in the workshop, presentation and/or competitions are **required to register individually** in addition to the above registration.
-
-Please check and apply from the link below.
-
-https://sites.google.com/view/intelligenthomerobotics/activity/iHR12#h.kmiowpucv97u
+> Please check the website for more details.
 
 
 ## Discord
 
-Please join at least one person from the team.
-Important information will be shared through the Discord server.
+Important information regarding the rules will be shared here, so please ensure that at least one person from each team joins.
 
 [Discord Invitation Link](https://discord.gg/8gJYJqUVZA)
 
 
 ## Rules
 
-> [!Note]
-> Rules may be updated based on discussion with other teams.
-
-### Overall Rules
-
-* [General Rules and Regulations](./rules/ALL/grr_en.md)
-
 ### Tasks
 
-* [Carry My Luggage](./rules/ALL/cml_en.md)
-* [Storing Groceries](./rules/ALL/sg_en.md)
-* [Restaurant](./rules/ALL/res_en.md)
+> [!Important]
+> The current rules are for iHR-C3 (2024). The rules for iHR-C4 are scheduled to be updated based on the RoboCup 2026 standards.
+
+* [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
+* [【TODO】Receptionist]()
 
 ### Detailed Information
 
-<!-- * (TBD)Object List -->
-* [Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
+> [!Important]
+> The current rules are for iHR-C3 (2024). The rules for iHR-C4 are scheduled to be updated based on the RoboCup 2026 standards.
+
+* [【TODO】Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
+* [【TODO】Furniture List]()
 
 
-## Score
+## Results
 
-### Task Scores
-
-| Awards | Team Name |
+| Award | Team Name |
 | --- | --- |
-| First Place | TIDBots |
-| Second Place | eR@sers |
-| Thrid Place | TRAIL |
+| 1st Place | TODO |
+| 2nd Place | TODO |
+| 3rd Place | TODO |
 
-
-![](rules/ALL/doc/iHR-C3_SG-score.svg)
-
-
-### Special Awards
-
-| Awards | Team Name |
-| --- | --- |
-| Best Manipulation Award | TaMC-HSR |
-| Best Hospitality Award | SOBITS |
+[【TODO】Detailed Score]()
