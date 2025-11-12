@@ -95,17 +95,6 @@ Object detection and recognition, object feature recognition, object manipulatio
 | &emsp; - Spilling cereal while pouring | -100 | 1 |
 | &emsp; - Leaving cereal in the box | -100 | 1 |
 | &emsp; - A human pouring cereal in the bowl | -300 | 1 |
-| **Deus Ex Machina Penalties** |
-| &emsp; - Perceiving object and categorizing it wrongly | -15 | 10 |
-| &emsp; - A human handing an object over to the robot | -50 | 5 |
-| &emsp; - A human placing an object in the cabinet | -15 | 5 |
-| &emsp; - A human placing an object in the cabinet next to similar objects | -50 | 5 |
-| &emsp; - A human pointing at a target location | -25 | 5 |
-| &emsp; - A human opening the first cabinet door | -200 | 1 |
-| &emsp; - A human opening the second cabinet door | -100 | 1 |
-| &emsp; - Spilling cereal while pouring | -100 | 1 |
-| &emsp; - Leaving cereal in the box | -100 | 1 |
-| &emsp; - A human pouring cereal in the bowl | -300 | 1 |
 | Total (including bonus rewards) | 1940 |
 <!-- | &emsp; - Opening the first cabinet door | 200 | 1 | -->
 <!-- | &emsp; - Opening the second cabinet door | 100 | 1 | -->
