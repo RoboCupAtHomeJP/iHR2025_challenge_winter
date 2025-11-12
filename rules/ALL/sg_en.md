@@ -1,121 +1,138 @@
-<sub>[Go back to README](../../README_en.md)</sub>
+<sub>[Back to README](../../README.md)</sub>
 
-[日本語](./sg_ja.md) | [English](./sg_en.md) 
+[日本語](./sg_ja.md) | [English](./sg_en.md)
 
 # Storing Groceries (SG)
 
-Reference video: https://www.youtube.com/watch?v=cA3MnJoOB1g
+Reference Video: https://www.youtube.com/watch?v=gzdSRsNC25s
 
-> [!NOTE]
-> This is a sample video from the previous competition. The rules may differ from the rules in this year.
-
-
-## Main Goal
-
-The robot needs to categorize the objects from the table to the cabinet, placing them based on the category or similarity of the grasped object.
+> [!NOTE]  
+> This video shows a competition from the past. The rules may differ from the current competition.
 
 
-## Focus
-*Object detection and recognition*, *Object feature recognition*, *Object manipulation*
+The robot stores groceries in a cabinet with shelves. Objects are sorted on the shelves based on similarity, for instance, an apple is stored next to other fruits.
 
-## Setup
+**Main goal:** Move objects from a table to the cabinet, grouping them by category or similarity. Refill the cereal container.
 
-- **Locations**: The competition will take place inside the arena.
-  - **Starting Location**: Before the test, the robot waits outside the Arena (in front of the `Entrance`) and navigates to the `testing location` when the door is open.
-  - **Testing location**: This area has a shelf and a table nearby.
-- **People**: No people are involved in the test, unless the robot requires human assistance.
-- **Furniture**
-  - **Table**: The table has 5-10 objects placed on it and the robot can choose which ones to grasp and in what order.
-  <!-- On small tables, objects will be added as the robot frees up space. -->
-  - **Cabinet**: The cabinet contains objects on different shelves.
-  <!-- - **Cabinet door**: The cabinet door is open by default, but the team leader can request the door to be closed and score additional points for opening it. If the robot fails to open the door, it must clearly state this and request the referee to open it. -->
-- **Time Limit**: Ten (10) minutes
-- **Objects**: The objects will be selected from the announced object list. There will be no unknown objects.
-  - **Table objects**: The objects on the table are arranged arbitrarily.
-  - **Cabinet objects**: The objects on the cabinet are arranged in groups based on category or likeliness.
+**Optional goals**
+<!-- 1. Opening the cabinet doors -->
+1. Moving a tiny object
+1. Moving a heavy object
+1. Picking up objects from the shopping bag
 
-## Procedure
+### Focus
+Object detection and recognition, object feature recognition, object manipulation.
 
-### Starting Phase
+### Setup
+* **Locations:**
+    * **Start location:** Before the test, the robot waits outside the arena and navigates to the testing area when the door is open.
+    * **Test location:** The testing area has a cabinet and a table nearby.
+* **People:**
+    * No people are involved in the test, unless the robot requires human assistance.
+* **Furniture:**
+    * **Table:** The table has 5–10 objects placed on it, and the robot can choose which ones to grasp and in what order. On smaller tables, new objects will be added as the robot frees up space.
+    * **Shopping Bag:** A shopping bag with 5–10 additional items is placed on the ground next to the table.
+    * **Cabinet:** The cabinet contains objects arranged in groups — either by category or similarity — on different shelves.
+    <!-- * **Cabinet door:** The cabinet is initially closed. If the robot cannot open the door, it must clearly request assistance from the referee. -->
+* **Objects**:
+    * **Table objects:** The objects on the table are arranged arbitrarily.
+    <!-- * **Cabinet objects:** The objects are placed behind the cabinet doors and cannot be accessed unless the doors are open. -->
+    * **Cabinet objects:** The objects are placed in the cabinet.
+    * **Containers:** The container for the cornflakes is placed on the table.
+    <!-- * **Containers:** The container for nori (seaweed) is placed on the table. (Japanese version) -->
 
-1. **Setup**: The `TC` instructs the team to move the robot to the `Starting Location`.
-2. **Start**: The `TC` gives the `start signal` and starts the timer. At the same time, the team completes the final simple setup (pressing the starting button, etc.) and leaves the area. Complex setup procedures such as pressing more than two buttons are not allowed.
-3. **Door opening**: One person from the team opens the door at the `start signal`. The robot recognizes that the door has opened and autonomously enters the arena.
+### Procedure
+1.  **Table location:** On Setup Day, the OC/TC will announce which table and cabinet will be used in the test, along with the approximate table location.
+2.  **Test start:** The robot enters the testing area once the arena door is opened.
+3.  **Storing groceries:** After identifying the table, the robot moves the objects from the table to the cabinet.
+4.  **Pouring cereal:** The robot pours cereal into the designated open container.
+<!-- 4.  **Pouring dried seaweed:** The robot pours dried seaweed into the designated open container. (Japanese version) -->
 
-### Storing Phase
+### Additional rules and remarks
+1.  **Table:** The approximate location of the table will be announced in advance, and it will be positioned near the cabinet.
+2.  **Incorrect categorization:** The score is reduced if an object is stored in the cabinet but not on a shelf with similar objects; this reduction is applied per incorrectly stored object.
+3.  **New category:** Objects that do not belong to any of the categories on the shelves should be grouped together on a new shelf.
+4.  **Deus Ex Machina:** Scores are reduced if human assistance is received, in particular for:
+    * telling or pointing out to the robot where to place an object
+    * moving an object instead of the robot
+    <!-- * opening the cabinet doors -->
+5.  **Communicating Perception**: The robot must clearly communicate its perception to the OC/TC.
+    Pointing at the object or attempting to pick it up is sufficient.
+    If using a visual UI, the robot must indicate where the OC/TC should look and ensure the display is clearly accessible.
+    If the team wants to utilize bounding boxes, make sure **only** one object with a bounding box is shown at a time, so the OC/TC can easily check and verify.
+    The surrounding scene must also be visible; cropped views alone are insufficient.
 
-1. **Navigation**: The robot moves to the `testing location` when the arena door is open, and goes towards the table where the objects are placed.
-2. **Detection**: The robot detects and announce the object to be grasped.
-3. **Picking**: The robot picks up the object which was previously announced during the `detection` section.
-4. **Sorting**: The robot moves towards the cabinet, and finds the location to be placed. In this case, the robot needs to reason why that location was selected.
-5. **Placing**: The robot places the object in the announce location durin the `shorting` section.
-6. **Bonus**: During the `Picking` and `Placing` section, the robot may face up `tiny` and/or `heavy` obstacles which are defined in the object list.
+### Score sheet
 
-> [!IMPORTANT]
-**New category**: Objects that do not semantically belong to any of the categories represented on the shelves should be grouped together on a new shelf.
+**Time Limit:** 7 minutes
 
+| Action | Points | Max Repetitions |
+| :--- | :--- | :--- |
+| **Main Goal** |
+| &emsp; - Navigating to the table | 15 | 1 |
+| &emsp; - Perceiving object and categorizing it correctly | 15 | 5 |
+| &emsp; - Picking up an object for transportation to the cabinet | 50 | 5 |
+| &emsp; - Perceiving objects in shelf and saying where to place object | 15 | 5 |
+| &emsp; - Placing an object in the cabinet | 15 | 5 |
+| &emsp; - Placing an object next to similar objects on the cabinet | 50 | 5 |
+| &emsp; - Pouring cereal into the container | 300 | 1 |
+| Total (excluding bonus tasks) | 1490 |
+| **Bonus Points** |
+| &emsp; - Picking up an object from the shopping bag | 50 | 5 |
+| &emsp; - Picking up a tiny object | 70 | 1 |
+| &emsp; - Placing a tiny object | 30 | 1 |
+| &emsp; - Picking up a heavy object | 70 | 1 |
+| &emsp; - Placing a heavy object | 30 | 1 |
+| Total (bonus tasks only) | 450 |
+| **Deus Ex Machina Penalties** |
+| &emsp; - Perceiving object and categorizing it wrongly | -15 | 10 |
+| &emsp; - A human handing an object over to the robot | -50 | 5 |
+| &emsp; - A human placing an object in the cabinet | -15 | 5 |
+| &emsp; - A human placing an object in the cabinet next to similar objects | -50 | 5 |
+| &emsp; - A human pointing at a target location | -25 | 5 |
+| &emsp; - A human opening the first cabinet door | -200 | 1 |
+| &emsp; - A human opening the second cabinet door | -100 | 1 |
+| &emsp; - Spilling cereal while pouring | -100 | 1 |
+| &emsp; - Leaving cereal in the box | -100 | 1 |
+| &emsp; - A human pouring cereal in the bowl | -300 | 1 |
+| **Deus Ex Machina Penalties** |
+| &emsp; - Perceiving object and categorizing it wrongly | -15 | 10 |
+| &emsp; - A human handing an object over to the robot | -50 | 5 |
+| &emsp; - A human placing an object in the cabinet | -15 | 5 |
+| &emsp; - A human placing an object in the cabinet next to similar objects | -50 | 5 |
+| &emsp; - A human pointing at a target location | -25 | 5 |
+| &emsp; - A human opening the first cabinet door | -200 | 1 |
+| &emsp; - A human opening the second cabinet door | -100 | 1 |
+| &emsp; - Spilling cereal while pouring | -100 | 1 |
+| &emsp; - Leaving cereal in the box | -100 | 1 |
+| &emsp; - A human pouring cereal in the bowl | -300 | 1 |
+| Total (including bonus tasks) | 1940 |
+<!-- | &emsp; - Opening the first cabinet door | 200 | 1 | -->
+<!-- | &emsp; - Opening the second cabinet door | 100 | 1 | -->
+<!-- | &emsp; - Autonomously Picking any Object | 50 | N/A | -->
+<!-- | &emsp; - Autonomously Placing any Object | 50 | N/A | -->
 
-## Deus ex Machina
+**Score sheet for scorers**: [(TBD) SG-score_sheet]()
+<!-- **Score sheet for scorers**: [SG-score_sheet](./doc/iHR-SG-score_sheet.pdf) -->
 
-The following `Deus ex Machina` will be adopted in this task.
-Although no points are awarded for the corresponding action, it is possible to skip partial tasks with simpler methods and continue with the overall task.
-
-| Action | Bypassing |
-| --- | --- |
-| Object Grasping | `TC` holds the object instructed by the robot and gives it to the robot (or places it in a specific location). At this time, the robot needs to accurately convey the object's position, name, instructions, etc to the `TC` |
-| Object Placement | `TC` places the object that the robot is holding (or is in a specific location) in the location specified by the robot. At this time, the robot needs to accurately convey the object's placement position, name, instructions, etc to the `TC` |
-
-
-## Score Sheet
-
-| Action | Score |
-| --- | :---: |
-| **Main Task** |  |
-| &emsp; - Navigating to the table                                  | 10 |
-| &emsp; - Perceiving object and categorizing it correctly          | 5x10 |
-| &emsp; - Picking up an object for transportation to the cabinet   | 5x16 |
-| &emsp; - Reasoning the location to place the handled object       | 5x10 |
-| &emsp; - Placing an object in the cabinet                         | 5x16 |
-| &emsp; - Placing an object next to similar objects on the cabinet | 5x10 |
-|  |  |
-| **Bonus Tasks** |  |
-| &emsp; - Picking up a tiny object  | 30 |
-| &emsp; - Placing a tiny object     | 30 |
-| &emsp; - Picking up a heavy object | 30 |
-| &emsp; - Placing a heavy object    | 30 |
-|  |  |
-| **Penalty** |  |
-| Not attending | -500 |
-|  |  |
-| Total (including bonus tasks) | 500 |
-
-> [!NOTE]
-> Bonus will be scored if one of the main task of the corresponding phase is completed.
-
-<!-- **Score Sheet for the Scorer**: (TBD)SG-score_sheet -->
-**Score Sheet for the Scorer**: [SG-score_sheet](./doc/iHR-C3_SG-score_sheet.pdf)
 
 ## Instructions
 
+### To OC/TC
+
+On Setup Day:
+* Announce which table and cabinet will be used.
+* Announce a rough location for the table.
+* Select which bags will be used.
+* Select which container will be used.
+
+Before the competition starts:
+* Place 5–10 objects on the table.
+* Place the container and cornflakes on the table.
+* Place 5–10 objects in a bag near the table.
+* Place objects in the cabinet, grouping them by category or similarity.
+* Close the cabinet doors.
+
 ### To Volunteer
 
-No volunteers will be needed for this task.
-
-### To Scorer
-
-Scorers are selected according to the *General Rules* [Scoring System](./grr_en.md#scoring-system) and will perform the following tasks:
-
-- Gather **thirty (30) minutes** before the test starts.
-- Receive instructions about the score sheet.
-- Score the competition.
-- Confirm the score with the other scorers and TC.
-- Submit the score sheet to the TC.
-
-### To TC
-
-- During *Setup Days*:
-  - Prepare the `Objects` to be used during the task.
-- Before the test:
-  - Place 5-10 objects on the table.
-  - Place objects in the cabinet, grouping them by category or likeliness.
-  - Select the `small` and `heavy` objects and announce it.
+Volunteers are not involved in this task.
