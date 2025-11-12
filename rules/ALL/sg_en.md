@@ -76,14 +76,14 @@ Object detection and recognition, object feature recognition, object manipulatio
 | &emsp; - Placing an object in the cabinet | 15 | 5 |
 | &emsp; - Placing an object next to similar objects on the cabinet | 50 | 5 |
 | &emsp; - Pouring cereal into the container | 300 | 1 |
-| Total (excluding bonus tasks) | 1490 |
-| **Bonus Points** |
+| Total (excluding bonus rewards) | 1490 |
+| **Bonus Rewards** |
 | &emsp; - Picking up an object from the shopping bag | 50 | 5 |
 | &emsp; - Picking up a tiny object | 70 | 1 |
 | &emsp; - Placing a tiny object | 30 | 1 |
 | &emsp; - Picking up a heavy object | 70 | 1 |
 | &emsp; - Placing a heavy object | 30 | 1 |
-| Total (bonus tasks only) | 450 |
+| Total (bonus rewards only) | 450 |
 | **Deus Ex Machina Penalties** |
 | &emsp; - Perceiving object and categorizing it wrongly | -15 | 10 |
 | &emsp; - A human handing an object over to the robot | -50 | 5 |
@@ -106,7 +106,7 @@ Object detection and recognition, object feature recognition, object manipulatio
 | &emsp; - Spilling cereal while pouring | -100 | 1 |
 | &emsp; - Leaving cereal in the box | -100 | 1 |
 | &emsp; - A human pouring cereal in the bowl | -300 | 1 |
-| Total (including bonus tasks) | 1940 |
+| Total (including bonus rewards) | 1940 |
 <!-- | &emsp; - Opening the first cabinet door | 200 | 1 | -->
 <!-- | &emsp; - Opening the second cabinet door | 100 | 1 | -->
 <!-- | &emsp; - Autonomously Picking any Object | 50 | N/A | -->
