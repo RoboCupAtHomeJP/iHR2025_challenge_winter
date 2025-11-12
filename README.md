@@ -27,8 +27,8 @@
 
 | 登録締切 | 内容 |
 | --- | --- |
-| TODO | チャレンジ |
-| TODO | 見学/懇親会申込 |
+| 2025年12月6日(土) 23:59 | チャレンジ |
+| 2025年12月6日(土) 23:59 | 見学/懇親会申込 |
 
 > [!Caution]
 > 詳細はウェブサイトにて記載されておりますので，ご確認ください．
@@ -43,23 +43,13 @@
 
 ## ルール
 
-> [!Note]
-> 参加チームの議論を通して，ルールが更新される可能性がある．
-
-### Overall Rules
-
-> [!Important]
-> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
-
-* [【TODO】General Rules and Regulations](./rules/ALL/grr_ja.md)
-
 ### Tasks
 
 > [!Important]
 > 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
 
 * [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
-* [【TODO】 Receptionist]()
+* [【TODO】Receptionist]()
 
 ### Detailed Information
 
