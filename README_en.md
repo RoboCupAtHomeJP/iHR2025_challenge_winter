@@ -49,7 +49,7 @@ Important information regarding the rules will be shared here, so please ensure 
 > The current rules are for iHR-C3 (2024). The rules for iHR-C4 are scheduled to be updated based on the RoboCup 2026 standards.
 
 * [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
-* [【TODO】Receptionist]()
+* [Receptionist](./rules/ALL/receptionist_en.md)
 
 ### Detailed Information
 
