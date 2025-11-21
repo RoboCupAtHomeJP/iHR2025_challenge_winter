@@ -45,16 +45,10 @@
 
 ### Tasks
 
-> [!Important]
-> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
-
-* [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
+* [Storing Groceries](./rules/ALL/sg_ja.md)
 * [Receptionist](./rules/ALL/receptionist.md)
 
 ### Detailed Information
-
-> [!Important]
-> 現時点のルールは2024年の`iHR-C3`になっております．`iHR-C4`のルールはRoboCup 2026の基準で更新される予定です．
 
 * [【TODO】Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
 * [【TODO】Furniture List]()
