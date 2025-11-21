@@ -45,16 +45,10 @@ Important information regarding the rules will be shared here, so please ensure 
 
 ### Tasks
 
-> [!Important]
-> The current rules are for iHR-C3 (2024). The rules for iHR-C4 are scheduled to be updated based on the RoboCup 2026 standards.
-
-* [【TODO】Storing Groceries](./rules/ALL/sg_ja.md)
+* [Storing Groceries](./rules/ALL/sg_ja.md)
 * [Receptionist](./rules/ALL/receptionist_en.md)
 
 ### Detailed Information
-
-> [!Important]
-> The current rules are for iHR-C3 (2024). The rules for iHR-C4 are scheduled to be updated based on the RoboCup 2026 standards.
 
 * [【TODO】Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
 * [【TODO】Furniture List]()
