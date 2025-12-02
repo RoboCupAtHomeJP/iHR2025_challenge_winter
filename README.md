@@ -50,7 +50,7 @@
 
 ### Detailed Information
 
-* [【TODO】Object List](./rules/ALL/doc/iHR_object_list.pdf)
+* [Object List](./rules/ALL/doc/iHR_object_list.pdf)
 * [【TODO】Furniture List]()
 
 
