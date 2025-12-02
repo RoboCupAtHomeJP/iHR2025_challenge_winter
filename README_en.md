@@ -50,7 +50,7 @@ Important information regarding the rules will be shared here, so please ensure 
 
 ### Detailed Information
 
-* [【TODO】Object List](./rules/ALL/doc/iHR-C3_object_list.pdf)
+* [【TODO】Object List](./rules/ALL/doc/iHR_object_list.pdf)
 * [【TODO】Furniture List]()
 
 
