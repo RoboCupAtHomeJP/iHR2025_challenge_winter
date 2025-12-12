@@ -51,8 +51,7 @@
 ### Detailed Information
 
 * [Object List](./rules/ALL/doc/iHR_object_list.pdf)
-* [【TODO】Furniture List]()
-
+* [Arena Layout](./rules/ALL/doc/iHR_arena.md)
 
 ## 採点
 

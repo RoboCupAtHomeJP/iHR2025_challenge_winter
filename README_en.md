@@ -51,7 +51,7 @@ Important information regarding the rules will be shared here, so please ensure 
 ### Detailed Information
 
 * [Object List](./rules/ALL/doc/iHR_object_list.pdf)
-* [【TODO】Furniture List]()
+* [Arena Layout](./rules/ALL/doc/iHR_arena.md)
 
 
 ## Results
