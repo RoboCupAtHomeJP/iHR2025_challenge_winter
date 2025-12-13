@@ -52,6 +52,7 @@
 
 * [Object List](./rules/ALL/doc/iHR_object_list.pdf)
 * [Arena Layout](./rules/ALL/doc/iHR_arena.md)
+* [Name List](./rules/ALL/doc/name_list.md)
 
 ## 採点
 
