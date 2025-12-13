@@ -5,4 +5,12 @@
 
 ## Common Layout
 
-![Arena Layout](./iHR_map.png)
+![Common Arena](./iHR_map.png)
+
+## Storing Groceries
+
+![Storing Groceries Arena](./iHR_SG-map.png)
+
+## Receptionist
+
+![Receptionist Arena](./iHR_RC-map.png)
