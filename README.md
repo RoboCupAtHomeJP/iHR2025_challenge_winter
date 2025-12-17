@@ -57,9 +57,9 @@
 
 | 受賞 | チーム名 |
 | --- | --- |
-| 優勝 | TODO |
-| 準優勝 | TODO |
-| 第三位 | TODO |
+| 優勝 | Re@dy |
+| 準優勝 | TIDBots |
+| ベストホスピタリティアワード | Hibikino-Musashi@Home |
 
-[【TODO】Detailed Score]()
+[Detailed Score](./rules/ALL/doc/iHR_Final_Score.pdf)
 

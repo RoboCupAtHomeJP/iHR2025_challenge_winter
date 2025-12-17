@@ -58,8 +58,8 @@ Important information regarding the rules will be shared here, so please ensure 
 
 | Award | Team Name |
 | --- | --- |
-| 1st Place | TODO |
-| 2nd Place | TODO |
-| 3rd Place | TODO |
+| 1st Place | Re@dy |
+| 2nd Place | TIDBots |
+| Best Hospitality Award | Hibikino-Musashi@Home |
 
-[【TODO】Detailed Score]()
+[Detailed Score](./rules/ALL/doc/iHR_Final_Score.pdf)
